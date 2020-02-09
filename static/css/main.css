@@ -4,6 +4,7 @@ body{
 }
 table {
     border-collapse: collapse;
+    width: 400px;
   }
   
 table, th, td {
@@ -16,4 +17,14 @@ table, th, td {
 }
 .content h1{
     font-style: italic;
+    text-align: center;
+}
+form{
+    margin-top: 50px;
+}
+form input:nth-child(1){
+    width: 300px;
+}
+form input:nth-child(2){
+    width: 90px;
 }
